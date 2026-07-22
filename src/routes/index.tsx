@@ -16,8 +16,8 @@ export const Route = createFileRoute("/")({
     meta: [
       { title: "Dashboard – AI Workplace Productivity Assistant" },
       { name: "description", content: "Your AI-powered workspace for emails, meeting notes, and task planning." },
-      { property: "og:title", content: "AI Workplace Productivity Assistant" },
-      { property: "og:description", content: "Generate emails, summarize meetings, and plan tasks with AI." },
+      { property: "og:title", content: "Dashboard – AI Workplace Productivity Assistant" },
+      { property: "og:description", content: "Your AI-powered workspace for emails, meeting notes, and task planning." },
     ],
   }),
 });

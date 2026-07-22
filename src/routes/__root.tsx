@@ -77,13 +77,18 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "AI Workplace Productivity Assistant" },
+      { title: "Dashboard – AI Workplace Productivity Assistant" },
       { name: "description", content: "Your AI-powered workspace for emails, meeting notes, and task planning." },
-      { property: "og:title", content: "AI Workplace Productivity Assistant" },
-      { property: "og:description", content: "Generate emails, summarize meetings, and plan tasks with AI." },
+      { name: "author", content: "Lovable" },
+      { property: "og:title", content: "Dashboard – AI Workplace Productivity Assistant" },
+      { property: "og:description", content: "Your AI-powered workspace for emails, meeting notes, and task planning." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "Dashboard – AI Workplace Productivity Assistant" },
+      { name: "twitter:description", content: "Your AI-powered workspace for emails, meeting notes, and task planning." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/83ea6ce4-6f5b-46ef-aa26-2ba72ae03420/id-preview-0592768f--c84aea65-25b7-4014-bc9e-bffa1296c669.lovable.app-1784723056933.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/83ea6ce4-6f5b-46ef-aa26-2ba72ae03420/id-preview-0592768f--c84aea65-25b7-4014-bc9e-bffa1296c669.lovable.app-1784723056933.png" },
     ],
     links: [
       {
